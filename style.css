@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: whitesmoke;
+    background-color: brown;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header, footer {
+    background-color: coral;
+    height: 100px;
+}
+
+main {
+    color: goldenrod;
+    background-color: darkolivegreen;
+    margin: auto;
+    width: 1000px;
+}
+
+h2 {
+    color: blanchedalmond;
+    background-color: green;
+}
