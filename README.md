@@ -3,7 +3,7 @@
 > How does it work?
 
 Html is what you might call the skeleton of a website. The structure. The bones.
-It holds everything you want to share, but nothing else. 
+It holds everything you want to share, but nothing else.
 
 There is no scenery, nothing to grab your attention, nothing pleasing to the eye.
 
