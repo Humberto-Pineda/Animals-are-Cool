@@ -44,7 +44,7 @@ function ruSure() {
         return "Nice to meet you!"
     }
     else {
-        alert("Well played stranger...")
+        alert("Well played stranger... refresh page and be honest next time!")
     }
 }
 
