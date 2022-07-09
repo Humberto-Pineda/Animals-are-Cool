@@ -1,6 +1,5 @@
 function bestBear() {
     let favBear = prompt("What type of bear is best?");
-    console.log (favBear);
     if (favBear == "black bear"){
         return "...It's true"
     }
@@ -39,3 +38,6 @@ function bestSky() {
     }
 }
 
+function incCount() {
+    console.log ("incCount()");
+}
