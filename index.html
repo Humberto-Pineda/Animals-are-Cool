@@ -11,12 +11,13 @@
             height: 250px;
             width: 250px;
         }
-    </style>
+        </style>
+        <script src="app.js"></script>
 </head>
-<body>
-    <script src="app.js"></script>
+<body> 
+    <script>document.write(bestBear())</script>
     <header>
-                <h1>Animals</h1>                
+        <h1>Animals</h1>                       
         <nav>
             <ul>
                 <li>
@@ -38,23 +39,28 @@
         <section>
             <ul>
                 <li>
+                    <script>document.write(bestLand())</script>
                     <p>Bears</p>
                     <img src="https://placebear.com/200/200
                     ">
                     <p>Big, furry, lovable, and scary</p>
                 </li>
                 <li>
+                    <script>document.write(bestSea())</script>
                     <p>Orcas</p>
                     <img src="https://img.youtube.com/vi/DikKhVPn1Tk/mqdefault.jpg">
                     <p>Playful, intelligent, and ravenous</p>
                 </li>
                 <li>
+                    <script>document.write(bestSky())</script>
                     <p>Eagles</p>
                     <img src="https://nationaleaglecenter.org/wp-content/uploads/2022/05/staff-placeholder.jpg">
                     <p>Noble, powerful, dangerous, and proud</p>
                 </li>
             </ul>
         </section>
+        <h1>Click if you love animals!</h1>
+        <button onclick="incCount()">I Love Animals!</button>
     </main>
     <footer>
         <p>&copy;Class 102w29</p>
