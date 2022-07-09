@@ -38,6 +38,16 @@ function bestSky() {
     }
 }
 
+function ruSure() {
+    let firstName = prompt("What's your name?");
+    if (firstName != ""){
+        return "Nice to meet you!"
+    }
+    else {
+        alert("Well played stranger...")
+    }
+}
+
 function incCount() {
     console.log ("incCount()");
 }
